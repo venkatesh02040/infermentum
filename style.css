@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.main{
+    overflow-x: hidden;
+}
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 10;
+    left: 0;
+    right: 0;
+}
+
+.nav {
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 800px;
+}
+
+.child1 {
+    background-color: hotpink;
+    /* width: 650px;
+    height: 650px; */
+    text-align: center;
+    align-content: center;
+
+}
+
+.child2 {
+    background-color: #fff;
+}
+
+.div2 {
+    width: 500px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    left: 10px;
+}
+.infer,.q1,.q2,.q3{
+    padding-left: 85px;
+}
+
+.cart1 {
+    border-bottom: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: smaller;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    background-color: #000;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+h4 {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+}
+
+.fig1 {
+    background-image: url(https://www.infermentum.it/_upload/_big/1713362537.3386_Il_Biscotto-Muscovado-e-Cannella_Taglio-per-sito.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #FFF0D1;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 900px;
+}
+.child3 {
+    margin-left: 30px;
+}
+td{
+    padding-right: 150px;
+}
+.dat{
+    display: flex;
+    padding-left: 30px;   
+}
+.child4{
+    justify-content: center;
+    margin-top: 100px;
+}
+.dat2{
+    padding-left: 150px;
+}
+
+
+h2 {
+    font-size: 90px;
+}
+
+.parent2 {
+    text-align: center;
+    margin-top: 10px;
+    height: 200px;
+}
+.parent3{
+    text-align: center;
+    height: 50px;
+}
+.parent4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    padding-left: 90px;
+}
+.image-overlay {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    transition: all 0.5s ease;
+    /* display: none; */
+}
+
+.image-container:hover .image-overlay {
+    top: 0;
+    /* display: inline-block; */
+}
+
+.image-container:hover {
+    .image {
+        opacity: 0;
+    }
+    .image-overlay {
+        opacity: 1;
+    }
+}
+
+
+.image {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+.cart2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: smaller;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    color: #fff;
+    background-color: #000;
+    margin: 40px;
+    text-align: center;
+
+}
+span{
+    margin: 5px;
+}
+.parent5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    
+}
+.infr2{
+    margin-left: 30px;
+    margin-bottom: 250px;
+}
+.tab1{
+    margin-left: 50px;
+}
+.icons{
+    margin-bottom: 400px;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.icons1{
+    position: fixed;
+    font-size: 30px;
+    top: 90%;
+    z-index: 100;
+    left: 5px;
+}
+.desserts{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    z-index: 100;
+}
